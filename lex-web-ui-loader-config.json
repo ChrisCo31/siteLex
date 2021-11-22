@@ -1,0 +1,67 @@
+{
+  "region": "eu-central-1",
+  "cognito": {
+    "poolId": "eu-central-1:d2ec15b2-ebad-4d22-9b39-4093b4f94987",
+    "appUserPoolClientId": "5ps6bodvdv9tfoklc9jan7b247",
+    "appUserPoolName": "eu-central-1_BwN8gwaBm",
+    "appDomainName": "luciekdevklexkwebkuikidentitypoolconfigkcoo977074294343.auth.eu-central-1.amazoncognito.com",
+    "aws_cognito_region": "eu-central-1",
+    "region": "eu-central-1"
+  },
+  "connect": {
+    "contactFlowId": "",
+    "instanceId": "",
+    "apiGatewayEndpoint": "",
+    "promptForNameMessage": "Before starting a live chat, please tell me your name?",
+    "waitingForAgentMessage": "Thanks for waiting. An agent will be with you when available.",
+    "waitingForAgentMessageIntervalSeconds": "60"
+  },
+  "lex": {
+    "v2BotId": "BUAWW55MFV",
+    "v2BotAliasId": "TSTALIASID",
+    "v2BotLocaleId": "fr_FR",
+    "botName": "BUAWW55MFV",
+    "botAlias": "$LATEST",
+    "initialText": "Bonjour",
+    "initialSpeechInstruction": "Bonjour",
+    "initialUtterance": "",
+    "reInitSessionAttributesOnRestart": false,
+    "region": "eu-central-1",
+    "retryOnLexPostTextTimeout": "false",
+    "retryCountPostTextTimeout": "1"
+  },
+  "ui": {
+    "parentOrigin": "https://dd3gpx0ew3eqy.cloudfront.net",
+    "toolbarTitle": "Lucietech FAQ",
+    "toolbarLogo": "",
+    "positiveFeedbackIntent": "Thumbs up",
+    "negativeFeedbackIntent": "Thumbs down",
+    "helpIntent": "Help",
+    "enableLogin": false,
+    "enableLiveChat": false,
+    "forceLogin": false,
+    "AllowSuperDangerousHTMLInMessage": true,
+    "shouldDisplayResponseCardTitle": false,
+    "saveHistory": false,
+    "enableSFX": false,
+    "minButtonContent": "",
+    "hideInputFieldsForButtonResponse": false,
+    "pushInitialTextOnRestart": false,
+    "directFocusToBotInput": false,
+    "showDialogStateIcon": false,
+    "backButton": false,
+    "messageMenu": true,
+    "hideButtonMessageBubble": false
+  },
+  "polly": {
+    "voiceId": "Salli"
+  },
+  "recorder": {
+    "preset": "speech_recognition"
+  },
+  "iframe": {
+    "iframeOrigin": "https://dd3gpx0ew3eqy.cloudfront.net",
+    "shouldLoadIframeMinimized": true,
+    "iframeSrcPath": "/index.html#/?lexWebUiEmbed=true"
+  }
+}
